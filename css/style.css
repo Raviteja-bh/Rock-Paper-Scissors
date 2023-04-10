@@ -1,0 +1,179 @@
+body {
+    /* background-image: url("alien.png"); */
+    margin: 0;
+
+}
+
+.header {
+    display: flex;
+    background-color: #211417;
+    margin: 0;
+    padding: 0;
+    /* padding: 2em; */
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.content {
+    width: 100%;
+    height: 200vh;
+    background-image: url("alien.png");
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    /* border: 3px solid green; */
+    padding: 1em;
+    margin-left: 1em;
+    /* margin-right: 2em; */
+}
+
+.itemList {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    /* border: 3px solid blue; */
+    align-items: center;
+}
+
+.mainhead {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 3px solid black; */
+    width: 700px;
+    font-style: oblique;
+    font-weight: 1100px;
+}
+
+.item {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: wheat;
+    border: 3px solid black;
+    text-shadow: 3px 3px 2px black;
+    margin-bottom: 1px;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+.btn {
+    display: flex;
+    /* border: 3px solid red; */
+    margin-top: 1px;
+    justify-content: center;
+    /* padding-bottom: 2em; */
+    margin-left: 2em;
+}
+
+.btnIn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 31px;
+    height: 130px;
+    width: 130px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 70%;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bold;
+}
+
+.btnIn:active {
+    background-color: #211417;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+
+
+.RPS {
+    display: flex;
+    border: 4px solid yellow;
+    flex-direction: column;
+    height: 580px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.Players {
+    display: flex;
+    border: 2px solid purple;
+    height: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    color: wheat;
+    font-size: 40px;
+}
+
+.you {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+
+.bot {
+    /* border: 2px solid brown; */
+    margin-left: 182px;
+    
+}
+
+.game {
+    display: flex;
+    border: 2px solid violet;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn1, #btn2, #btn3 {
+    width: 200px;
+    height: 200px;
+    margin: 140px;
+    border-radius: 25%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px darkslategray;
+    transition: all 0.2s ease;
+
+}
+
+#btn1 {
+    background-image: url("blackStone.jpg");
+}
+
+#btn2 {
+    background-image: url("Paper.jpg");
+    background-size: 250px;
+    border-color: black;
+}
+
+#btn3 {
+    background-image: url("blackScissors.png");
+}
+
+#btn1:active, #btn2:active, #btn3:active {
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }

@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock-Paper_Scissors</title>
-    <script src="interactive.js"></script>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Testing Under Process.</h1>
+    <div class="header">
+        <div class="logo"><h3><i>RPS-Games</i></h3></div>
+        <div class="mainhead"><h1>Rock-Paper-Scissor</h1></div>
+            <ul class="itemList">
+                <li class="item"><a href="#">SignUp</a></li>
+                <li class="item"><a href="#">SignIn</a></li>
+                <li class="item"><a href="#">Community</a></li>
+            </ul>
+    </div>
+    <div class="content">
+        <span class="welcome"></span>
+        <span class="btn"><Button class="btnIn">START</Button></span>
+        <div class="RPS">
+            <div class="Players">
+                <div class="you">
+                <h3>Player(You)</h3>
+                </div>
+                <div class="bot">
+                <h3>Alien Bot</h3>
+                </div>
+            </div>
+            <div class="game">
+            <div class="Rock"><button id="btn1"></button></div>
+            <div class="Paper"><button id="btn2"></button></div>
+            <div class="Scissors"><button id="btn3"></button></div>
+        </div>
+        </div>
+    </div>
+    
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="interactive.js"></script>
 </body>
 </html>

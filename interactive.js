@@ -1,3 +1,11 @@
+//Moving Letters
+var typed = new Typed(".welcome", {
+    strings: ["Welcome To RPS-Games!"],
+    typeSpeed: 150,
+    backSpeed: 150,
+});
+
+//Rock-Paper_Scissors Logic.
 let playRound = (computerChoice, playerChoice) => {
     if(computerChoice == "rock" && playerChoice == "scissors"){
         return "Compter wins bcoz Rock beats Scissors :(";
@@ -16,11 +24,11 @@ let playRound = (computerChoice, playerChoice) => {
     }
 };
 
-function game(){
-    for(let i = 0; i<3 ; i++){
-        console.log(playRound(computer(), player()));
-    }
-}
+// function game(){
+//     for(let i = 0; i<3 ; i++){
+//         console.log(playRound(computer(), player()));
+//     }
+// }
 
 function getComputerChoice() {
     const arr = ["Rock", "Paper", "Scissors"];
@@ -29,12 +37,12 @@ function getComputerChoice() {
     return arr[num].toLowerCase();
 }
 
-function getPlayerChoice() {
-    let ans = prompt("Enter your choice of word: Rock, Paper, Scissors: ");
-    return ans.toLowerCase();
-}
+// function getPlayerChoice() {
+//     let ans = prompt("Enter your choice of word: Rock, Paper, Scissors: ");
+//     return ans.toLowerCase();
+// }
 
 const computer = getComputerChoice;
 const player = getPlayerChoice;
 
-game();
+// game();
